@@ -12,7 +12,7 @@ public class HyperlinkTest {
 	WebDriver driver;
 
 	@Test
-	public void fb() {
+	public void fbHyperLink() {
 		// driver = new ChromeDriver();
 		// driver = new EdgeDriver();
 		driver = new FirefoxDriver();
@@ -24,7 +24,7 @@ public class HyperlinkTest {
 	}
 
 	@Test
-	public void google() {
+	public void googleImages() {
 		// Open google page
 		driver.get("https://google.com/");
 		driver.findElement(By.linkText("images")).click();

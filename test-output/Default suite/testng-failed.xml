@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumBasics.DropdownSample">
+      <class name="sreenivas.InheritanceSample">
         <methods>
           <include name="f"/>
+          <include name="googleImages"/>
         </methods>
-      </class> <!-- seleniumBasics.DropdownSample -->
+      </class> <!-- sreenivas.InheritanceSample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
